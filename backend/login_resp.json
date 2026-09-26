@@ -1,0 +1,7 @@
+﻿{
+    "token":  "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkZXZAZXhhbXBsZS5jb20iLCJpYXQiOjE3ODE2MDU5MDUsImV4cCI6MTc4MTY5MjMwNX0.GrETXPNIdFridzDwPfh_oCICDuUCxQN_gVq4_Iojvpg",
+    "email":  "dev@example.com",
+    "role":  "CUSTOMER",
+    "firstName":  "Dev",
+    "lastName":  "User"
+}

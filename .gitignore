@@ -1,0 +1,15 @@
+# Java build output
+backend/target/
+
+# Node modules and frontend build output
+frontend/node_modules/
+frontend/dist/
+
+# IDE settings
+*.iml
+.idea/
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store

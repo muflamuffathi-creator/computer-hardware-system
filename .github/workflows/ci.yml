@@ -1,0 +1,71 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '25'
+
+      - name: Set up Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Build backend
+        run: mvn -f backend/pom.xml -DskipTests package -B
+
+      - name: Start backend
+        run: |
+          nohup java -jar backend/target/*SNAPSHOT.jar > backend.log 2>&1 &
+          for i in {1..30}; do
+            if curl -sSf http://localhost:8080/api/products >/dev/null; then
+              echo "backend up"; exit 0
+            fi
+            sleep 2
+          done
+          exit 1
+
+      - name: Install frontend dependencies
+        run: |
+          cd frontend
+          npm ci
+
+      - name: Build frontend
+        run: |
+          cd frontend
+          npm run build
+
+      - name: Start frontend preview
+        run: |
+          cd frontend
+          nohup npm run preview -- --port 5173 > frontend.log 2>&1 &
+          for i in {1..30}; do
+            if curl -sSf http://localhost:5173/ >/dev/null; then
+              echo "frontend up"; exit 0
+            fi
+            sleep 2
+          done
+          exit 1
+
+      - name: Install Playwright browsers
+        run: |
+          cd frontend
+          npx playwright install --with-deps
+
+      - name: Run Playwright E2E tests
+        working-directory: frontend
+        run: npx playwright test --reporter=list

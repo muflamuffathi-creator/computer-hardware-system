@@ -1,0 +1,7 @@
+{
+  "email": "e2e.node1783880758771@example.com",
+  "chatStatus": 200,
+  "chat": {
+    "reply": "Here are some CPU cooler recommendations from our catalog:\n- **NZXT Kraken X63 280mm AIO**: $1499.00 (Liquid cooler supporting AM5, LGA1700, AM4, and LGA1200 sockets)\n- **Noctua NH-D15 chromax.black**: $1099.00 (Dual-tower air cooler compatible with AM5, LGA1700, AM4, and LGA1200 sockets)\n\nBoth options work well for high-end CPUs. Ask me if you want a cooler recommendation for an Intel or AMD build."
+  }
+}

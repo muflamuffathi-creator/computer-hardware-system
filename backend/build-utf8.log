@@ -1,0 +1,47 @@
+﻿[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.hardware:ecommerce-ai >----------------------
+[INFO] Building hardware-ecommerce-ai 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.5.0:clean (default-clean) @ ecommerce-ai ---
+[INFO] Deleting C:\Users\mufla\.gemini\antigravity\scratch\hardware-ecommerce-ai\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ecommerce-ai ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ ecommerce-ai ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 58 source files with javac [debug release 25] to target\classes
+mvn.cmd : WARNING: A terminally deprecated method in sun.misc.Unsafe has been 
+called
+At line:1 char:46
++ ...  -Value ""; & 'C:\apache-maven-3.9.15\bin\mvn.cmd' -DskipTests=true - ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WARNING: A term...has been called 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by 
+lombok.permit.Permit
+WARNING: Please consider reporting this to the maintainers of class 
+lombok.permit.Permit
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] /C:/Users/mufla/.gemini/antigravity/scratch/hardware-ecommerce-ai/backend/src/main/java/com/hardware/ecommerce/controller/ProductController.java: Some input files use or override a deprecated API.
+[INFO] /C:/Users/mufla/.gemini/antigravity/scratch/hardware-ecommerce-ai/backend/src/main/java/com/hardware/ecommerce/controller/ProductController.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ ecommerce-ai ---
+[INFO] skip non existing resourceDirectory C:\Users\mufla\.gemini\antigravity\scratch\hardware-ecommerce-ai\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ ecommerce-ai ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 7 source files with javac [debug release 25] to target\test-classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  35.076 s
+[INFO] Finished at: 2026-07-03T10:33:41+05:30
+[INFO] ------------------------------------------------------------------------

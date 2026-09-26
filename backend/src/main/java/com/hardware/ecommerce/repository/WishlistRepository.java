@@ -1,0 +1,14 @@
+package com.hardware.ecommerce.repository;
+
+import com.hardware.ecommerce.model.Product;
+import com.hardware.ecommerce.model.User;
+import com.hardware.ecommerce.model.Wishlist;
+import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.List;
+import java.util.Optional;
+
+public interface WishlistRepository extends JpaRepository<Wishlist, Long> {
+    List<Wishlist> findByUserOrderByCreatedAtDesc(User user);
+    Optional<Wishlist> findByUserAndProduct(User user, Product product);
+    boolean existsByUserAndProduct(User user, Product product);
+}

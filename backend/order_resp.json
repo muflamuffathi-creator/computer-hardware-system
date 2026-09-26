@@ -1,0 +1,67 @@
+﻿{
+    "orderId":  4,
+    "user":  {
+                 "userId":  7,
+                 "firstName":  "Dev",
+                 "lastName":  "User",
+                 "email":  "dev@example.com",
+                 "role":  "CUSTOMER",
+                 "createdAt":  "2026-06-16T16:01:32"
+             },
+    "totalAmount":  798.00,
+    "orderStatus":  "PENDING",
+    "orderDate":  "2026-06-16T16:04:13.2234644",
+    "shippingAddress":  "123 Dev St, Testville",
+    "billingAddress":  "123 Dev St, Testville",
+    "orderItems":  [
+                       {
+                           "orderItemId":  5,
+                           "product":  {
+                                           "productId":  1,
+                                           "category":  {
+                                                            "categoryId":  1,
+                                                            "name":  "Processors (CPU)",
+                                                            "description":  "Central Processing Units from Intel and AMD"
+                                                        },
+                                           "brand":  {
+                                                         "brandId":  2,
+                                                         "brandName":  "AMD"
+                                                     },
+                                           "name":  "AMD Ryzen 7 7800X3D",
+                                           "description":  "High-end gaming CPU with 3D V-Cache, 8 cores and 16 threads.",
+                                           "price":  399.00,
+                                           "stockQuantity":  15,
+                                           "imageUrl":  "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=500",
+                                           "specifications":  [
+                                                                  {
+                                                                      "specificationId":  3,
+                                                                      "specificationName":  "cores",
+                                                                      "specificationValue":  "8"
+                                                                  },
+                                                                  {
+                                                                      "specificationId":  5,
+                                                                      "specificationName":  "graphics_integrated",
+                                                                      "specificationValue":  "yes"
+                                                                  },
+                                                                  {
+                                                                      "specificationId":  1,
+                                                                      "specificationName":  "socket",
+                                                                      "specificationValue":  "AM5"
+                                                                  },
+                                                                  {
+                                                                      "specificationId":  2,
+                                                                      "specificationName":  "tdp",
+                                                                      "specificationValue":  "120W"
+                                                                  },
+                                                                  {
+                                                                      "specificationId":  4,
+                                                                      "specificationName":  "threads",
+                                                                      "specificationValue":  "16"
+                                                                  }
+                                                              ]
+                                       },
+                           "quantity":  2,
+                           "unitPrice":  399.00
+                       }
+                   ]
+}

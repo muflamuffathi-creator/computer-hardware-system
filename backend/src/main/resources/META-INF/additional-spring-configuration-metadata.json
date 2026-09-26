@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "256-bit secret key used to sign JWT tokens.",
+      "sourceType": "com.hardware.ecommerce.config.JwtProperties"
+    },
+    {
+      "name": "jwt.expiration",
+      "type": "java.lang.Long",
+      "description": "JWT expiration time in milliseconds.",
+      "sourceType": "com.hardware.ecommerce.config.JwtProperties"
+    },
+    {
+      "name": "gemini.api.key",
+      "type": "java.lang.String",
+      "description": "Gemini API key for the generative AI service.",
+      "sourceType": "com.hardware.ecommerce.config.GeminiProperties"
+    },
+    {
+      "name": "gemini.api.url",
+      "type": "java.lang.String",
+      "description": "Gemini API endpoint URL.",
+      "sourceType": "com.hardware.ecommerce.config.GeminiProperties"
+    }
+  ]
+}

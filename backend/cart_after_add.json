@@ -1,0 +1,15 @@
+﻿{
+    "cartId":  7,
+    "user":  {
+                 "userId":  7,
+                 "firstName":  "Dev",
+                 "lastName":  "User",
+                 "email":  "dev@example.com",
+                 "role":  "CUSTOMER",
+                 "createdAt":  "2026-06-16T16:01:32"
+             },
+    "cartItems":  [
+
+                  ],
+    "createdAt":  "2026-06-16T16:01:33"
+}
