@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ytxS2zp8LEhJkd31I6RE">
+    <mxGraphModel dx="2060" dy="1124" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="1100" width="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="nav" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=40;fontSize=14;labelBackgroundColor=none;" value="LOGO        Shop    Categories    Deals    Support" vertex="1">
+          <mxGeometry height="60" width="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="breadcrumb" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;labelBackgroundColor=none;" value="Home  &gt;  Products  &gt;  Graphics Cards  &gt;  NVIDIA RTX 4060" vertex="1">
+          <mxGeometry height="30" width="500" x="20" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mainImage" parent="1" style="shape=cross;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="350" width="400" x="20" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="thumb1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="60" width="80" x="20" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="thumb2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="60" width="80" x="116" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="thumb3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="60" width="80" x="212" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="thumb4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="60" width="80" x="308" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="brandBadge" parent="1" style="rounded=10;whiteSpace=wrap;html=1;strokeColor=none;fontSize=11;fontStyle=1;labelBackgroundColor=none;" value="NVIDIA" vertex="1">
+          <mxGeometry height="22" width="60" x="450" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="productName" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;labelBackgroundColor=none;" value="NVIDIA GeForce RTX 4060" vertex="1">
+          <mxGeometry height="40" width="500" x="450" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="specsLine" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=none;" value="8GB GDDR6 | 128-bit | 2.46 GHz Boost" vertex="1">
+          <mxGeometry height="20" width="500" x="450" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="rating" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=none;" value="★★★★★ 4.8 (124 reviews)" vertex="1">
+          <mxGeometry height="20" width="500" x="450" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="priceMain" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;labelBackgroundColor=none;" value="LKR 120,000" vertex="1">
+          <mxGeometry height="30" width="160" x="450" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="priceOld" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;textDecoration=line-through;labelBackgroundColor=none;" value="LKR 135,000" vertex="1">
+          <mxGeometry height="20" width="120" x="610" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="stockBadge" parent="1" style="rounded=4;whiteSpace=wrap;html=1;strokeColor=none;fontSize=12;fontStyle=1;align=center;labelBackgroundColor=none;" value="In Stock (15 units)" vertex="1">
+          <mxGeometry height="26" width="130" x="450" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="qtySelector" parent="1" style="rounded=4;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;" value="−      1      +" vertex="1">
+          <mxGeometry height="45" width="120" x="450" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="btnAddToCart" parent="1" style="rounded=4;whiteSpace=wrap;html=1;strokeColor=none;fontSize=16;fontStyle=1;labelBackgroundColor=none;" value="Add to Cart" vertex="1">
+          <mxGeometry height="50" width="300" x="450" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="btnBuyNow" parent="1" style="rounded=4;whiteSpace=wrap;html=1;strokeColor=none;fontSize=16;fontStyle=1;labelBackgroundColor=none;" value="Buy Now" vertex="1">
+          <mxGeometry height="50" width="300" x="450" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="wishlistLink" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=none;" value="♡ Add to Wishlist" vertex="1">
+          <mxGeometry height="20" width="120" x="450" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="compareLink" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=none;" value="⇄ Compare" vertex="1">
+          <mxGeometry height="20" width="100" x="580" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="btnAI" parent="1" style="rounded=4;whiteSpace=wrap;html=1;strokeColor=none;fontSize=14;fontStyle=1;labelBackgroundColor=none;" value="🤖 Ask AI about this product" vertex="1">
+          <mxGeometry height="45" width="300" x="450" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="tabBar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;labelBackgroundColor=none;" value="   Specifications          Reviews (124)          Q&amp;A" vertex="1">
+          <mxGeometry height="50" width="960" x="20" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="tabActiveLine" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="3" width="130" x="20" y="677" as="geometry" />
+        </mxCell>
+        <mxCell id="specsTable" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=15;lineHeight=2.5;labelBackgroundColor=none;" value="Brand&#xa;Model&#xa;Memory&#xa;Interface&#xa;Boost Clock&#xa;TDP&#xa;PSU Required&#xa;Architecture" vertex="1">
+          <mxGeometry height="320" width="200" x="20" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="specsValues" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=15;fontStyle=1;lineHeight=2.5;labelBackgroundColor=none;" value="NVIDIA&#xa;RTX 4060&#xa;8GB GDDR6&#xa;128-bit&#xa;2.46 GHz&#xa;115W&#xa;550W&#xa;Ada Lovelace" vertex="1">
+          <mxGeometry height="320" width="250" x="220" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="rev1" parent="1" style="rounded=4;whiteSpace=wrap;html=1;align=left;spacingLeft=15;labelBackgroundColor=none;" value="&lt;b&gt;John D.&lt;/b&gt; ★★★★★&lt;br&gt;Great performance for 1080p gaming. Very power efficient!&lt;br&gt;&lt;font color=&#39;#94a3b8&#39;&gt;Oct 12, 2023&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="480" x="500" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="rev2" parent="1" style="rounded=4;whiteSpace=wrap;html=1;align=left;spacingLeft=15;labelBackgroundColor=none;" value="&lt;b&gt;Sarah M.&lt;/b&gt; ★★★★☆&lt;br&gt;Runs cool and quiet. A bit pricey but worth it for the DLSS 3.&lt;br&gt;&lt;font color=&#39;#94a3b8&#39;&gt;Oct 10, 2023&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="480" x="500" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="rev3" parent="1" style="rounded=4;whiteSpace=wrap;html=1;align=left;spacingLeft=15;labelBackgroundColor=none;" value="&lt;b&gt;Alex K.&lt;/b&gt; ★★★★★&lt;br&gt;Perfect upgrade from my old 1060. Huge jump in FPS.&lt;br&gt;&lt;font color=&#39;#94a3b8&#39;&gt;Oct 05, 2023&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="480" x="500" y="910" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

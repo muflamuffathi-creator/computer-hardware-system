@@ -1,0 +1,175 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="kw8JvKV5l0K40Az4sK5v">
+    <mxGraphModel dx="1717" dy="937" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="header_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="80" width="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="logo" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=24;labelBackgroundColor=none;" value="LOGO" vertex="1">
+          <mxGeometry height="40" width="100" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nav_menu" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=none;" value="Home    Products    Categories    About    Contact" vertex="1">
+          <mxGeometry height="30" width="400" x="140" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="search_bar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;labelBackgroundColor=none;" value="Search hardware..." vertex="1">
+          <mxGeometry height="30" width="300" x="550" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="login_btn" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Login" vertex="1">
+          <mxGeometry height="30" width="60" x="870" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="register_btn" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Register" vertex="1">
+          <mxGeometry height="30" width="80" x="940" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cart_icon" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" value="[Cart]" vertex="1">
+          <mxGeometry height="30" width="50" x="1040" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="profile_icon" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;rounded=0;" value="[User]" vertex="1">
+          <mxGeometry height="30" width="30" x="1110" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="hero_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;" value="Banner Placeholder" vertex="1">
+          <mxGeometry height="350" width="1160" x="20" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hero_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;fontStyle=1;labelBackgroundColor=none;" value="Computer Hardware Store" vertex="1">
+          <mxGeometry height="60" width="500" x="350" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="shop_now_btn" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;labelBackgroundColor=none;" value="Shop Now" vertex="1">
+          <mxGeometry height="50" width="160" x="430" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ai_assist_btn" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;labelBackgroundColor=none;" value="AI Assistant" vertex="1">
+          <mxGeometry height="50" width="160" x="610" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;labelBackgroundColor=none;" value="Browse Categories" vertex="1">
+          <mxGeometry height="30" width="200" x="20" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Processors" vertex="1">
+          <mxGeometry height="120" width="175" x="20" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="RAM" vertex="1">
+          <mxGeometry height="120" width="175" x="215" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Graphics Cards" vertex="1">
+          <mxGeometry height="120" width="175" x="410" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Storage" vertex="1">
+          <mxGeometry height="120" width="175" x="605" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Motherboards" vertex="1">
+          <mxGeometry height="120" width="175" x="800" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Accessories" vertex="1">
+          <mxGeometry height="120" width="175" x="995" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="prod_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;labelBackgroundColor=none;" value="Featured Products" vertex="1">
+          <mxGeometry height="30" width="200" x="20" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="380" width="270" x="20" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_img" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;" value="Product Image" vertex="1">
+          <mxGeometry height="180" width="230" x="40" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_name" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;labelBackgroundColor=none;" value="High-End Processor" vertex="1">
+          <mxGeometry height="20" width="230" x="40" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_price" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" value="$499.00" vertex="1">
+          <mxGeometry height="20" width="230" x="40" y="955" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_add" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Add to Cart" vertex="1">
+          <mxGeometry height="35" width="230" x="40" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_view" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="View Details" vertex="1">
+          <mxGeometry height="35" width="230" x="40" y="1035" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="380" width="270" x="315" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_img" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;" value="Product Image" vertex="1">
+          <mxGeometry height="180" width="230" x="335" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_name" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;labelBackgroundColor=none;" value="Gaming GPU" vertex="1">
+          <mxGeometry height="20" width="230" x="335" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_price" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" value="$799.00" vertex="1">
+          <mxGeometry height="20" width="230" x="335" y="955" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_add" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Add to Cart" vertex="1">
+          <mxGeometry height="35" width="230" x="335" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_view" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="View Details" vertex="1">
+          <mxGeometry height="35" width="230" x="335" y="1035" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="380" width="270" x="610" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_img" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;" value="Product Image" vertex="1">
+          <mxGeometry height="180" width="230" x="630" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_name" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;labelBackgroundColor=none;" value="DDR5 RAM 32GB" vertex="1">
+          <mxGeometry height="20" width="230" x="630" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_price" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" value="$150.00" vertex="1">
+          <mxGeometry height="20" width="230" x="630" y="955" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_add" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Add to Cart" vertex="1">
+          <mxGeometry height="35" width="230" x="630" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_view" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="View Details" vertex="1">
+          <mxGeometry height="35" width="230" x="630" y="1035" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="380" width="270" x="905" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_img" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;" value="Product Image" vertex="1">
+          <mxGeometry height="180" width="230" x="925" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_name" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;labelBackgroundColor=none;" value="NVMe SSD 2TB" vertex="1">
+          <mxGeometry height="20" width="230" x="925" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_price" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" value="$180.00" vertex="1">
+          <mxGeometry height="20" width="230" x="925" y="955" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_add" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Add to Cart" vertex="1">
+          <mxGeometry height="35" width="230" x="925" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_view" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="View Details" vertex="1">
+          <mxGeometry height="35" width="230" x="925" y="1035" as="geometry" />
+        </mxCell>
+        <mxCell id="chat_popup" parent="1" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="350" width="300" x="880" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="chat_header" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" value="AI Assistant" vertex="1">
+          <mxGeometry height="40" width="300" x="880" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="chat_ai_msg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fontSize=12;labelBackgroundColor=none;" value="AI: Hello! How can I help you build your PC today?" vertex="1">
+          <mxGeometry height="45" width="220" x="895" y="1205" as="geometry" />
+        </mxCell>
+        <mxCell id="chat_user_msg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=right;spacingRight=10;fontSize=12;labelBackgroundColor=none;" value="User: I need a GPU for 4K gaming." vertex="1">
+          <mxGeometry height="45" width="220" x="945" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="chat_input" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;labelBackgroundColor=none;" value="Type your message..." vertex="1">
+          <mxGeometry height="35" width="270" x="895" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="chat_icon_floating" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fontSize=18;labelBackgroundColor=none;rounded=0;" value="AI" vertex="1">
+          <mxGeometry height="70" width="70" x="1110" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="200" width="1200" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_links" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" value="Quick Links&#xa;- Privacy Policy&#xa;- Terms of Service&#xa;- Shipping Info" vertex="1">
+          <mxGeometry height="100" width="200" x="50" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_contact" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" value="Contact Us&#xa;Email: support@hardware.com&#xa;Phone: +1 234 567 890" vertex="1">
+          <mxGeometry height="100" width="250" x="300" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_social" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" value="Follow Us&#xa;[FB] [TW] [IG] [YT]" vertex="1">
+          <mxGeometry height="100" width="200" x="600" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_copy" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" value="© 2024 Computer Hardware E-Commerce. All Rights Reserved." vertex="1">
+          <mxGeometry height="30" width="400" x="400" y="1550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

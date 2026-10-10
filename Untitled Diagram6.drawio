@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="xOJCNggp2LVlGxnj8Qgm">
+    <mxGraphModel dx="1873" dy="1022" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nav_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="64" width="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="nav_logo" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;labelBackgroundColor=none;" value="&lt;b&gt;HARDWARE&lt;/b&gt;STORE" vertex="1">
+          <mxGeometry height="30" width="200" x="40" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="nav_links" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=none;" value="Products      Solutions      Support" vertex="1">
+          <mxGeometry height="30" width="300" x="860" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="card" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;shadow=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="912" width="450" x="375" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="logo_circle" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;strokeColor=none;labelBackgroundColor=none;" value="&lt;b&gt;H&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="575" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="heading" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;labelBackgroundColor=none;" value="Create Account" vertex="1">
+          <mxGeometry height="40" width="450" x="375" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="subtext" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=none;" value="Join our hardware community" vertex="1">
+          <mxGeometry height="20" width="450" x="375" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_fname" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;labelBackgroundColor=none;" value="First Name &lt;font color=&quot;#dc2626&quot;&gt;*&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="100" x="400" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="input_fname" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;arcSize=12;labelBackgroundColor=none;" value="John" vertex="1">
+          <mxGeometry height="48" width="195" x="400" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_lname" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;labelBackgroundColor=none;" value="Last Name &lt;font color=&quot;#dc2626&quot;&gt;*&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="100" x="605" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="input_lname" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;arcSize=12;labelBackgroundColor=none;" value="Doe" vertex="1">
+          <mxGeometry height="48" width="195" x="605" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_email" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;labelBackgroundColor=none;" value="Email &lt;font color=&quot;#dc2626&quot;&gt;*&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="100" x="400" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="input_email" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;arcSize=12;labelBackgroundColor=none;" value="john.doe@example.com" vertex="1">
+          <mxGeometry height="48" width="400" x="400" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_phone" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;labelBackgroundColor=none;" value="Phone Number" vertex="1">
+          <mxGeometry height="20" width="120" x="400" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="input_phone" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;arcSize=12;labelBackgroundColor=none;" value="0771234567" vertex="1">
+          <mxGeometry height="48" width="400" x="400" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_pass" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;labelBackgroundColor=none;" value="Password &lt;font color=&quot;#dc2626&quot;&gt;*&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="100" x="400" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="input_pass" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;arcSize=12;labelBackgroundColor=none;" value="••••••••" vertex="1">
+          <mxGeometry height="48" width="400" x="400" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="strength_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;arcSize=50;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="6" width="400" x="400" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="strength_fill" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;arcSize=50;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="6" width="240" x="400" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="strength_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;labelBackgroundColor=none;" value="Medium strength" vertex="1">
+          <mxGeometry height="15" width="100" x="400" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_conf" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;labelBackgroundColor=none;" value="Confirm Password &lt;font color=&quot;#dc2626&quot;&gt;*&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="150" x="400" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="input_conf" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;arcSize=12;labelBackgroundColor=none;" value="••••••••" vertex="1">
+          <mxGeometry height="48" width="400" x="400" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="checkbox_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="400" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="checkbox_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;labelBackgroundColor=none;" value="I agree to &lt;font color=&quot;#3b82f6&quot;&gt;Terms of Service&lt;/font&gt; and &lt;font color=&quot;#3b82f6&quot;&gt;Privacy Policy&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="375" x="425" y="774" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_submit" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fontSize=16;fontStyle=1;arcSize=12;labelBackgroundColor=none;" value="Create Account" vertex="1">
+          <mxGeometry height="48" width="400" x="400" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="div_l" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="175" x="400" y="885" as="geometry" />
+        </mxCell>
+        <mxCell id="div_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;labelBackgroundColor=none;" value="OR" vertex="1">
+          <mxGeometry height="20" width="30" x="585" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="div_r" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="175" x="625" y="885" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_google" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;arcSize=12;labelBackgroundColor=none;" value="Sign up with Google" vertex="1">
+          <mxGeometry height="48" width="400" x="400" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="signin_link" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=none;" value="Already have an account? &lt;font color=&quot;#3b82f6&quot;&gt;Sign In&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="450" x="375" y="970" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

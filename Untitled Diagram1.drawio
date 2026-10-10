@@ -1,0 +1,145 @@
+<mxGraphModel dx="1422" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                
+                <!-- System Boundary -->
+                <mxCell id="2" value="COMPUTER HARDWARE E-COMMERCE SYSTEM" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;verticalAlign=top;align=center;spacingTop=10;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="40" width="650" height="1550" as="geometry"/>
+                </mxCell>
+
+                <!-- Actors -->
+                <mxCell id="3" value="USER&#10;(Customer)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="500" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="ADMIN&#10;(Manager)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1050" y="300" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="AI SYSTEM&#10;(Assistant)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1050" y="1100" width="30" height="60" as="geometry"/>
+                </mxCell>
+
+                <!-- Generalization -->
+                <mxCell id="6" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1000" y="350" as="sourcePoint"/>
+                        <mxPoint x="150" y="500" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1065" y="10"/>
+                            <mxPoint x="95" y="10"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+
+                <!-- User Use Cases -->
+                <mxCell id="uc1" value="Register Account" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="80" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc2" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="140" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc3" value="Browse Products" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="200" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc4" value="Search/Filter Products" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="260" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc5" value="View Product Details" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="320" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc6" value="Add to Cart" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="380" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc7" value="Manage Cart" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="440" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc8" value="Checkout" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="500" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc9" value="Make Payment" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="560" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc10" value="Place Order" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="620" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc11" value="Track Order Status" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="680" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc12" value="Cancel Order" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="740" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc13" value="Write Review" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="800" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc14" value="Manage Profile" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="80" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc15" value="Manage Address" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="860" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc16" value="Chat with AI Assistant" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="920" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc17" value="Get Product Recommendations" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="980" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc18" value="Get Recommendations" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="1040" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc19" value="Ask AI Support Questions" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="1100" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc20" value="AI Stock Alert" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="1160" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc21" value="AI Price Drop Alert" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="1220" width="140" height="50" as="geometry"/>
+                </mxCell>
+
+                <!-- Admin Use Cases -->
+                <mxCell id="uc22" value="Manage Product Catalog" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="80" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc23" value="Manage Orders" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="140" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc24" value="Manage Users" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="200" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc25" value="Manage Categories" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="260" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc26" value="View Inventory Reports" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="320" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc27" value="Update Stock Levels" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="380" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc28" value="Manage Reviews" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="440" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc29" value="View Sales Analytics" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="500" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc30" value="Process Refund" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="140" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc31" value="Update Order Status" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="560" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc32" value="Manage AI Chat Logs" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="620" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc33" value="View System Logs" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="680" width="140" height="50" as="geometry"/>
+                </mxCell>
+
+                <!-- AI System Specific Use Cases -->
+                <mxCell id="uc34" value="AI Inventory Forecasting" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="1100" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc35" value="AI Demand Prediction" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="1160" width="140" height="50" as="geometry"/>
+                </mxCell>
+</root>
+</mxGraphModel>
